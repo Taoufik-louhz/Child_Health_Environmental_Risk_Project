@@ -1,0 +1,15 @@
+# Child Health & Environmental Risk Factors
+# Versions reported from the working Python environment on 2026-11-03.
+# Core dependencies for data processing, modelling and Streamlit dashboard.
+numpy==2.4.6
+pandas==3.0.3
+matplotlib==3.11.0
+statsmodels==0.14.6
+plotly==6.7.0
+streamlit==1.58.0
+openpyxl==3.1.5
+scipy==1.18.0
+
+# Used explicitly by the Jupyter notebook for display().
+# A precise version was not provided, so it is not pinned yet.
+ipython
