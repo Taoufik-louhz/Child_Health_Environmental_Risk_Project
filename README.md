@@ -76,8 +76,10 @@ Child_Health_Environmental_Risk_Project/
 ├── Group_Child_Health_Analysis.ipynb
 ├── dashboard.py
 ├── requirements.txt
+├── .gitignore
 └── README.md
 ```
+The original files in data/raw/ are stored locally and excluded from GitHub. The processed datasets are included in the repository so the notebook and dashboard can run without the original downloads.
 
 This layout shows the **expected project files**, including generated outputs. Keep filenames and paths unchanged unless the corresponding code is updated.
 
@@ -137,7 +139,7 @@ python -m streamlit run dashboard.py
 
 The app provides country and year filters, descriptive indicators, trends, scatter plots, Pearson and Spearman correlations, a precomputed regression comparison, country comparisons, and CSV downloads.
 
-**Important:** Dashboard correlations respond to the selected filters, but the regression results in `reports/model_comparison.csv` are **precomputed from the full study** and do **not** change with country/year filters. The data pipeline does **not** regenerate this model-comparison CSV; it must be kept consistent with the notebook when model specifications are updated.
+**Important:** Dashboard correlations respond to the selected filters, but the regression results in `reports/model_comparison.csv` are **precomputed using their respective analysis samples** and do **not** change with country/year filters. The data pipeline does **not** regenerate this model-comparison CSV; it must be kept consistent with the notebook when model specifications are updated.
 
 ## Analytical methods
 
