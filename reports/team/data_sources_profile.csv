@@ -1,0 +1,6 @@
+Dataset,File,Main_Indicator,Unit,Rows,Countries,Start_Year,End_Year,Missing_Indicator
+UNICEF under-five mortality,unicef_under5_mortality.csv,Under5_Mortality_Rate,"per 1,000 live births",15000,200,1950,2024,1904
+WHO PM2.5,who_pm25.csv,PM25,micrograms/m3,3178,227,2010,2023,0
+Integrated master,master_dataset.csv,Under5_Mortality_Rate,"per 1,000 live births",2786,199,2010,2023,0
+Main analysis,main_analysis.csv,Water_AtLeastBasic_Pct,percentage,2713,198,2010,2023,0
+Safely managed sample,secondary_analysis.csv,Water_SafelyManaged_Pct,percentage,1932,139,2010,2023,0
