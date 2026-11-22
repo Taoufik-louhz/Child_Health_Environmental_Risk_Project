@@ -67,11 +67,7 @@ notes += [
     f"- Master: {len(master)} country-year rows.",
     f"- Basic water missing in master: {missing_water} rows (not replaced by zero).",
     f"- Main complete-case sample: {len(main)} rows.",
-    "", "## Human review (complete this yourself)",
-    "", "- Which indicator definition did you verify in the README?",
-    "- Which step of the preprocessing script did you check?",
-    "- Did you find an improvement or possible limitation?",
-    "- Record the official source page that you opened and the date.",
+
     "", "Note: This report is a profile of processed extracts, not a new raw-data import.",
 ]
 (OUT / "data_source_profile.md").write_text("\n".join(notes) + "\n", encoding="utf-8")
