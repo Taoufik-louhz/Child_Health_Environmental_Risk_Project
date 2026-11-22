@@ -1,6 +1,6 @@
 """Member 5: automated tests for the data logic used by the Streamlit dashboard.
 
-Run from the project root: python -m unittest discover -s tests -p "test_dashboard.py" -v
+Run from the project root: python src/test_dashboard.py
 These are data-logic tests; also check the real Streamlit interface manually.
 """
 from pathlib import Path
