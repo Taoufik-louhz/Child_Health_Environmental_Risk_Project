@@ -32,7 +32,7 @@ Three files were saved: `eda_annual_summary.csv`, `eda_mortality_trend.png`,
 3. **Environmental indicators also improved on average.** Mean PM2.5 fell from
    22.6 to 19.3 µg/m³, and mean "at least basic" water access rose every year,
    from 85.3% to 89.9%.
-4. 4. **Morocco vs Hungary (PM2.5, values read from the chart, ±0.1).**
+4. **Morocco vs Hungary (PM2.5, values read from the chart, ±0.1).**
    Hungary started higher (19.0 µg/m³ in 2010, peaking at 20.3 in 2011) and fell
    to 11.2 by 2023, about a 41% decrease. The decline was not smooth: PM2.5 rose
    again to 17.0 in 2018 before dropping sharply to 14.1 in 2019. Morocco stayed
